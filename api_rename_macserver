@@ -5,9 +5,10 @@
 
 
 ##Variables###
-apiUsername="apiuser"
-apiPassword="jamfapi1200"
-jssURL="macserver.aimpa.org"
+apiUsername="apiusername"
+apiPassword="apipassword"
+## No need to add 8443 this already has it. 
+jssURL="your.jss.com"
 ###Do not modify below this line
 
 currentUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
